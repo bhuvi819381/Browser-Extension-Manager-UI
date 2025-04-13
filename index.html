@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Extension Manager UI</title>
+    <meta
+      name="description"
+      content="Manage your browser extensions with this easy-to-use interface. Toggle, filter, and remove extensions with a simple UI."
+    />
+    <meta
+      name="keywords"
+      content="browser extensions, extension manager, browser tools, productivity"
+    />
+    <meta name="author" content="Extension Manager Team" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://browser-extension-manager.example.com/"
+    />
+    <meta property="og:title" content="Browser Extension Manager UI" />
+    <meta
+      property="og:description"
+      content="Manage your browser extensions with this easy-to-use interface."
+    />
+    <meta
+      property="og:image"
+      content="https://browser-extension-manager.example.com/screenshot.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://browser-extension-manager.example.com/"
+    />
+    <meta property="twitter:title" content="Browser Extension Manager UI" />
+    <meta
+      property="twitter:description"
+      content="Manage your browser extensions with this easy-to-use interface."
+    />
+    <meta
+      property="twitter:image"
+      content="https://browser-extension-manager.example.com/screenshot.jpg"
+    />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Browser Extension Manager",
+        "applicationCategory": "BrowserApplication",
+        "operatingSystem": "Any",
+        "description": "Manage your browser extensions with this easy-to-use interface. Toggle, filter, and remove extensions with a simple UI.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
