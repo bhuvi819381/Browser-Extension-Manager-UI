@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/bhuvi819381/Browser-Extension-Manager-UI]
-- Live Site URL: []
+- Live Site URL: [https://browser-extension-manager-frontend.netlify.app/]
 
 ## My process
 

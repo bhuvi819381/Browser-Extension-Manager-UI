@@ -38,7 +38,7 @@
       </section>
     </main>
     <footer class="mt-12 text-center text-sm text-neutral-600 dark:text-neutral-400">
-      <p>© {new Date().getFullYear()} Browser Extension Manager. All rights reserved.</p>
+      <p>Browser Extension Manager | Frontend Mentor Challenge</p>
     </footer>
   </div>
 </div>
